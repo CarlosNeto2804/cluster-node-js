@@ -1,0 +1,20 @@
+{
+  "name": "cluster-com-nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Carlos Alberto de Jesus",
+    "email": "carloshtcursos@gmail.com",
+    "url": "https://github.com/CarlosNeto2804"
+  },
+  "scripts": {
+    "start": "node src/server/index.js",
+    "cluster": "node src/clusters.js",
+    "arttest":"node_modules/artillery/bin/artillery run ./artillery.yml"
+  },
+  "dependencies": {
+    "artillery": "^1.6.1",
+    "express": "^4.17.1"
+  }
+}
